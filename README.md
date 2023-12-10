@@ -52,4 +52,5 @@ Gradle JDK version jbr-17.
 Firebase account
 s350fproject@gmail.com 
 P@ss123456
+
 Pre-assign account (Name: student1 Password:1234, Name:student2 Password:5678, Name:teacher1 Password:1234)
