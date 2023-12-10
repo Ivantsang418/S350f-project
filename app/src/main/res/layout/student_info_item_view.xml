@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="5dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notificationTitle"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/imageView"
+        android:textSize="20dp"
+        tools:text="Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createdAt"
+        android:layout_below="@id/notificationTitle"
+        android:layout_toEndOf="@id/imageView"
+        android:textColor="@color/black"
+        tools:text="ID"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notificationMessage"
+        android:layout_below="@id/createdAt"
+        android:layout_toEndOf="@id/imageView"
+        android:textColor="@color/black"
+        tools:text="Email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:layout_below="@id/notificationMessage"
+        android:layout_toEndOf="@id/imageView"
+        android:textColor="@color/black"
+        tools:text="Phone"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="10dp"
+        android:background="#DAD8D8" />
+
+</RelativeLayout>
