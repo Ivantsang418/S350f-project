@@ -44,8 +44,11 @@ ENVIRONMENT SETTING
 -------------------
 
 Virtual device with API level 30 (Android 11.0).
+
 The Newest version(2022.3.1.21) of Andriod Studio.
+
 Gradle JDK version jbr-17.
+
 Firebase account
 s350fproject@gmail.com 
 P@ss123456
